@@ -102,9 +102,9 @@
 }
 .full-stack, .beginner-web-developer{
     width: 50%;
-    height: 420px;
+    height: auto;
     margin: 70px 0 10px 10px;
-    padding-left: 3%;
+    padding: 0 0 60px 3%;
     border-left: 7px solid;
     box-shadow: 5px 4px 70px grey;
 }
