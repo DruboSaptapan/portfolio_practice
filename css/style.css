@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    display: flex;
+    margin-top: 20px;
+}
+.left{
+    width: 50%;
+}
+.left h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    padding-left: 25px;
+}
+.left span{
+    color: #7e0366;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 70%;
+}
