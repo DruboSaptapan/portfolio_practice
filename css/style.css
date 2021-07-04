@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+#section_padding{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 .welcome{
     display: flex;
     margin-top: 75px;
@@ -84,4 +88,49 @@
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+}
+.experience{
+    margin: 0 auto;
+    width: 90%;
+}
+.experience h2{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.experience .web-developer{
+    display: flex;
+}
+.full-stack, .beginner-web-developer{
+    width: 50%;
+    height: 350px;
+    margin: 70px 0 10px 10px;
+    padding-left: 3%;
+    border-left: 7px solid;
+    box-shadow: 5px 4px 70px grey;
+}
+.full-stack{
+    margin-right: 20px;
+}
+.beginner-web-developer{
+    margin-left: 20px;
+}
+.full-stack h2, .beginner-web-developer h2{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.full-stack h3, .beginner-web-developer h3{
+    color: #68d0ca;
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0;
+}
+.full-stack p, .beginner-web-developer p{
+    color: dimgrey;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 10px 0 0;
 }
