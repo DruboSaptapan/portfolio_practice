@@ -6,41 +6,82 @@
     display: flex;
     margin-top: 75px;
 }
-.left{
+.welcome .left{
     width: 40%;
     padding-left: 75px;
 }
-.left h1{
+.welcome .left h1{
     padding: 5px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
 }
-.left h3{
+.welcome .left h3{
     padding: 20px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
 }
-.left p{
+.welcome .left p{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     margin: 0 0 20px 0;
 }
-.left span{
+.welcome .left span{
     color: #ffbc00;
 }
-.left a{
-    background-image: linear-gradient(#8ee48e, #51c4eb);
+.welcome .left a{
+    background-image: linear-gradient(45deg,#8ee48e, #51c4eb);
     padding: 10px 35px;
     color: #fff;
     border-radius: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-decoration: none;
+    text-transform: uppercase;
 }
-.right{
+.welcome .right{
     width: 50%;
 }
-.right img{
+.welcome .right img{
     width: 70%;
     margin-left: 150px;
+}
+.dream{
+    display: flex;
+    margin-top: 100px;
+}
+.dream .left{
+    width: 50%;
+}
+.dream .left img{
+    width: 70%;
+    padding-left: 75px;
+}
+.dream .right{
+    width: 45%;
+    margin-top: 75px;
+}
+.dream .right h2{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dream .right h3{
+    margin: 25px 0;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.dream .right p{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+.dream .right a{
+    background-image: linear-gradient(45deg,#8ee48e, #51c4eb);
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
 }
